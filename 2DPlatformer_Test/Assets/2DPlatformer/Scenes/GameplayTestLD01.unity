@@ -1717,7 +1717,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8724143362054980043, guid: 73055927a4179414d9cfaeea134e05be, type: 3}
       propertyPath: _bumpForce
-      value: 45
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 8724143362689442065, guid: 73055927a4179414d9cfaeea134e05be, type: 3}
       propertyPath: m_Mesh
@@ -4709,7 +4709,7 @@ Camera:
   near clip plane: 0.1
   far clip plane: 5000
   field of view: 60
-  orthographic: 1
+  orthographic: 0
   orthographic size: 6.5
   m_Depth: -1
   m_CullingMask:
@@ -4734,7 +4734,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 926011433}
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 15.000002, y: 4.865002, z: 1.1101012}
+  m_LocalPosition: {x: 11.800001, y: 3.4682844, z: 3.854127}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -5557,7 +5557,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1167646967}
   m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 16.000002, y: -71.827, z: -307.8899}
+  m_LocalPosition: {x: 16.000002, y: -72.25473, z: -307.52097}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 805034752}
@@ -5916,7 +5916,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1192372041}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 13, z: 62.06}
+  m_LocalPosition: {x: 0, y: 12, z: 62.06}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -8328,7 +8328,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1405112895}
   m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 16.000002, y: -68.134995, z: -307.8899}
+  m_LocalPosition: {x: 12.800001, y: -69.531715, z: -305.14587}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1797579374}
@@ -8621,7 +8621,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8724143362054980043, guid: 73055927a4179414d9cfaeea134e05be, type: 3}
       propertyPath: _bumpForce
-      value: 45
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 8724143362689442065, guid: 73055927a4179414d9cfaeea134e05be, type: 3}
       propertyPath: m_Mesh
@@ -8721,7 +8721,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8724143362054980043, guid: 73055927a4179414d9cfaeea134e05be, type: 3}
       propertyPath: _bumpForce
-      value: 45
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 8724143362689442065, guid: 73055927a4179414d9cfaeea134e05be, type: 3}
       propertyPath: m_Mesh
@@ -8949,16 +8949,16 @@ MonoBehaviour:
   m_YDamping: 1.49
   m_ZDamping: 1
   m_TargetMovementOnly: 1
-  m_ScreenX: 0.452
-  m_ScreenY: 0.6850001
-  m_CameraDistance: 15
-  m_DeadZoneWidth: 0.07505068
-  m_DeadZoneHeight: 0.05260139
+  m_ScreenX: 0.341
+  m_ScreenY: 0.574
+  m_CameraDistance: 11.8
+  m_DeadZoneWidth: 0.15165526
+  m_DeadZoneHeight: 0.2109807
   m_DeadZoneDepth: 0
   m_UnlimitedSoftZone: 0
-  m_SoftZoneWidth: 0.3830507
-  m_SoftZoneHeight: 0.2365338
-  m_BiasX: 0.1942218
+  m_SoftZoneWidth: 0.7018912
+  m_SoftZoneHeight: 1.2936246
+  m_BiasX: 0.09543059
   m_BiasY: 0
   m_CenterOnActivate: 1
   m_GroupFramingMode: 2
@@ -9041,7 +9041,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8724143362054980043, guid: 73055927a4179414d9cfaeea134e05be, type: 3}
       propertyPath: _bumpForce
-      value: 45
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 8724143362689442065, guid: 73055927a4179414d9cfaeea134e05be, type: 3}
       propertyPath: m_Mesh
