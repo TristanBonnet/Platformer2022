@@ -34,5 +34,7 @@ namespace GSGD2.Gameplay
 		{
 			transform.position += Time.deltaTime * _speed * transform.forward;
 		}
+
+		
 	}
 }

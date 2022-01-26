@@ -14,8 +14,9 @@
 		private enum Ability
 		{
 			Jump,
-			Dash
-		}
+			Dash,
+			WallGrab	
+		} 
 
 		// TODO AL : add modifiers : SetAllowedForce, 
 		private enum Modifier
@@ -36,7 +37,7 @@
 		{
 			var player = LevelReferences.Instance.Player;
 
-			switch (_ability)
+			switch (_ability)		
 			{
 				case Ability.Jump:
 
@@ -60,6 +61,19 @@
 						player.AddMaximumAllowedForceToDash(_modifier == Modifier.AddOneAllowedForce ? 1 : -1);
 					}
 				}
+					break;
+
+				case Ability.WallGrab:
+                    {
+						if (_modifier == Modifier.Enable || _modifier == Modifier.Disable)
+						{
+							player.EnableWallGrab(_modifier == Modifier.Enable ? true : false);
+						}
+						
+
+
+
+					}
 					break;
 				default:
 					break;

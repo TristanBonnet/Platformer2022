@@ -21,6 +21,7 @@ namespace GSGD2.Player
 		private const string RELEASE_ITEM_ACTION_NAME = "ReleaseItem";
 		private const string USE_ITEM_ACTION_NAME = "UseItem";
 		private const string GROUND_SMASH_ACTION_NAME = "GroundSmash";
+		
 
 		[SerializeField]
 		private InputActionMapWrapper _inputActionMapWrapper;
